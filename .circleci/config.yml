@@ -6,6 +6,7 @@ jobs:
       - image: cimg/base:current
     steps:
       - run: echo "Hello, World!"
+      - run: echo "Hello again!"
 
 workflows:
   hello-world-workflow:
